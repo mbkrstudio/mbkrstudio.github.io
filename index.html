@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MBKR Studio – Software Tycoon for Android</title>
+<meta name="description" content="MBKR Studio makes Software Tycoon, a management game for Android where you run your own software company.">
+<style>
+  :root {
+    --bg: #f3f5f8;
+    --panel: #ffffff;
+    --text: #151a22;
+    --muted: #55606e;
+    --rule: #d5dbe3;
+    --accent: #1d5fd1;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10141b;
+      --panel: #171d27;
+      --text: #e8ecf2;
+      --muted: #9aa5b4;
+      --rule: #29313d;
+      --accent: #7fb0ff;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 4rem 1.25rem 4rem;
+  }
+  .studio { margin: 0 0 3rem; font-size: 0.95rem; font-weight: 600; color: var(--muted); }
+  h1 {
+    font-size: clamp(2.4rem, 8vw, 3.75rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.25rem;
+  }
+  .lead { font-size: 1.25rem; line-height: 1.5; margin: 0 0 2.5rem; max-width: 32rem; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin: 0 0 2.5rem;
+  }
+  .panel p { margin: 0; color: var(--muted); }
+  .panel strong { color: var(--text); }
+  h2 { font-size: 1.1rem; margin: 0 0 0.75rem; }
+  ul.links { list-style: none; padding: 0; margin: 0 0 2.5rem; }
+  ul.links li { padding: 0.6rem 0; border-top: 1px solid var(--rule); }
+  ul.links li:last-child { border-bottom: 1px solid var(--rule); }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  footer { color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="studio">MBKR Studio</p>
+
+<h1>Software Tycoon</h1>
+<p class="lead">A management game for Android. Run your own software studio, hire staff, ship products and keep the finances in the black.</p>
+
+<div class="panel">
+  <p><strong>Your data stays on your device.</strong> The game has no accounts, no analytics and no crash reporting. Ads are provided by Google AdMob, and purchases are handled by Google Play.</p>
+</div>
+
+<h2>Links</h2>
+<ul class="links">
+  <li><a href="https://mbkrstudio.github.io/privacypolicymbkrstudios/">Privacy policy</a></li>
+  <li><a href="mailto:mbkrstudio@gmail.com">Contact and support: mbkrstudio@gmail.com</a></li>
+</ul>
+
+<footer>
+  <p>Android app <code>com.mbkrstudio.softwaretycoon</code></p>
+</footer>
+
+</main>
+</body>
+</html>
